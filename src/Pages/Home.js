@@ -14,7 +14,7 @@ const Home = () => {
          </main>
          <main>
      <div class="matter">
-        <p> Check out my projects and blogs<i class="fas fa-hand-point-down"></i></p>
+        <p> Check out my projects and blogs<i class="fas fa-hand-point-down">:</i></p>
          <button class="btn"><Link to="./Projects">Click Here</Link></button>
      </div>
    
