@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    background-color: #85b1d9;
+    font-family: 'Staatliches', cursive;
+}
+*,*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/*main styling start*/
+main .imag{
+    margin: 4rem 0;
+   text-align: center;
+   border: #4356bc ; 
+                
+   }
+   
+   main img{
+       border-radius: 175px;
+   background: linear-gradient(145deg, #8ebde8, #789fc3);
+   box-shadow:  6px 6px 4px #354757,
+                -6px -6px 4px #d5ffff;
+       cursor: pointer;
+                 
+       /* border-radius: 50%;
+       background: linear-gradient(145deg, #3c4da9, #485cc9);
+       box-shadow:  30px 30px 60px #4356bc,
+                    -30px -30px 60px #617dff;*/
+       /*border: solid 5px rgb(226, 196, 28);
+       border-radius: 50%;*/
+   }
+   main img:hover{
+       transform: translateY(2px);
+       transform: scale(1.1);
+   }
+   
+   main .content{
+       text-align: center;
+       font-size: 2rem;
+       color: #e4e9e2;
+       margin: 1rem 2rem;
+       text-shadow: 3px 3px #354757;
+   }
+   /*matter styling start*/
+   main .matter{
+    margin: 2rem 0;
+    margin-bottom: 0;
+    background-color:#39405b;
+
+    min-height: 10rem;
+    text-align: center;
+}
+main .matter p{
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #85b1d9;
+    text-shadow: 1.5px 1.5px #e4e9e2 ; 
+}
+main .matter p i{
+    padding-left:0.5rem;
+    color: #d5ffff;
+}
+main .btn{
+    margin-top: 1rem;
+    width: 15%;
+    font-family: 'Staatliches', cursive;
+    background-color:#4356bc;
+    color: #d5ffff;
+    font-size: 1.5rem;
+    min-height: 2.5rem;
+     
+}
+main .btn:hover{
+    transform: scale(1.2);
+    transform: translateY(2px);
+}
+/*matter styling end*/
+   

@@ -1,0 +1,63 @@
+/*about styling start*/
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .box1{
+    border-radius: 70px;
+background: linear-gradient(145deg, #8ebde8, #789fc3);
+box-shadow:  15px 15px 39px #4d677e,
+             -15px -15px 39px #bdfbff;
+    margin: 3rem 1rem;
+    text-align: center; 
+    min-height: 45vh;
+    min-width: 45vw;
+
+             
+}
+.box1 header{
+    margin: 0.5rem 0 ;
+    font-size:2rem ;
+    color: #4356bc;
+}
+.box1 p{
+    
+    text-align: center;
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color:#d5ffff;
+} 
+
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .interests{
+    border-radius: 70px;
+background: linear-gradient(145deg, #8ebde8, #789fc3);
+box-shadow:  15px 15px 39px #4d677e,
+             -15px -15px 39px #bdfbff;
+    margin: 3rem 1rem;
+    text-align: center;
+    min-height: 45vh;
+    min-width: 45vw;             
+}
+.interests header{
+    margin: 0.5rem 0 ;
+    font-size:2rem ;
+    color: #4356bc;
+}
+.interests p{
+    display: flex;
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color:#d5ffff;
+} 
+
+
+
+/*about styling end*/

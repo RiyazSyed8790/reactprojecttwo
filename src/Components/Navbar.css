@@ -1,0 +1,70 @@
+nav {
+    background: #4356bc;
+   color: #f9f6f8; 
+   min-height: 5rem;
+   border: 3px solid #f9f6f8;
+   text-decoration: none;
+   padding: 0rem 0 ;
+   }
+   .container{
+       width: 80%;
+       margin: auto;
+       overflow: hidden;
+   }
+   nav a{
+       text-transform: uppercase; 
+       font-size: 1.5rem;  
+   }
+   
+   a {
+       text-decoration: none;
+       color: whitesmoke;
+       font-size: 1.5rem;
+   }
+   nav .li{
+       float:left ; 
+       display: inline;
+       padding: 0 1.5rem 0rem 1.5rem;/*top right bottom left*/
+       font-weight:900;
+   }
+   .li{
+       list-style: none;
+       font-size: 1rem;
+       color: whitesmoke;
+   
+   }
+   
+   nav .branding{
+       float: left;
+       margin-top: 0.75rem;
+      /*margin-bottom: 1.5rem;*/
+   }
+   nav ul{
+       float: right;
+       margin-top: 1.5rem;
+   }
+   
+   nav .branding a {
+       margin: 0 ;
+       font-size: 2rem;
+       letter-spacing: 0.25rem;
+       font-weight: 900;
+       margin-top: 0.8rem;
+   }
+   nav .branding a:hover {
+       
+       
+       color: rgb(54, 52, 52) ;
+       cursor: pointer;
+   }
+   
+   nav  ul .li a.active{
+       color: #85b1d9;
+       font-weight: 600;
+   }
+   nav ul .li a:hover{
+       color: #354757;
+       font-weight: 800;
+       cursor: pointer;
+   }
+   

@@ -1,0 +1,93 @@
+/*div1 styling start*/
+main .p1{
+    background-color: #354757;
+     min-height: 12rem;
+ }
+ .p1 header{
+     padding: 1rem 2rem;
+     font-size: 2rem;
+     color: #f9f6f8;
+ }
+ .p1  .l1{
+     padding: 0.5rem 2rem;
+     font-size: 1.5rem;
+     color: #f9f6f8;
+ }
+ .p1 .l2{
+     padding: 0 2rem;
+     font-size: 1.5rem;
+     color: #f9f6f8;
+ }
+ .p1 header i{
+     color: palevioletred;
+     margin-right:0.5rem ;
+ }
+ .p1 li{
+     list-style: none ;
+     display: inline;
+     padding: 1rem 2rem;
+ 
+ }
+ .p1 li button{
+     margin: 1rem 1rem;
+     width: 8rem;
+     color: #f9f6f8;
+     font-size: 1.5rem;
+     cursor: pointer;
+     height: 3rem;
+     background-color: #e13f37;
+     font-family: 'Staatliches', cursive;
+ }
+ .p1 li button:hover{
+     transform: scale(1.2);
+     transform: translateY(5px);
+     
+     }
+  /*div 1 styling end*/   
+ /*div2 stying start*/    
+ main .p2{
+     background-color:#85b1d9;
+     color: #e2a233;
+     min-height: 12rem;
+ }   
+ .p2 header{
+     padding: 1rem 2rem;
+     font-size: 2rem;
+     color: #354757  ;
+ }
+ .p2  .l1{
+     padding: 0.5rem 2rem;
+     font-size: 1.5rem;
+     color: #354757;
+ }
+ .p2 .l2{
+     padding: 0 2rem;
+     font-size: 1.5rem;
+     color: #354757;
+ }
+ .p2 header i{
+     color: palevioletred;
+     margin-right:0.5rem ;
+ }
+ .p2 li{
+     list-style: none ;
+     display: inline;
+     padding: 1rem 2rem;
+ 
+ }
+ .p2 li button{
+     margin: 1rem 1rem;
+     width: 8rem;
+     color: #f9f6f8;
+     font-size: 1.5rem;
+     cursor: pointer;
+     height: 3rem;
+     background-color: #e13f37;
+     font-family: 'Staatliches', cursive;
+ }
+ .p2 li button:hover{
+     transform: scale(1.2);
+     transform: translateY(5px);
+     
+     } 
+/*div2 styling end*/ 
